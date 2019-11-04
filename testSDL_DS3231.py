@@ -26,7 +26,7 @@ print ""
 filename = time.strftime("%Y-%m-%d%H:%M:%SRTCTest") + ".txt"
 starttime = datetime.datetime.utcnow()
 
-ds3231 = SDL_DS3231.SDL_DS3231(1, 0x68)
+ds3231 = SDL_DS3231.SDL_DS3231(1, 0x68, 0x57)
 #comment out the next line after the clock has been initialized
 ds3231.write_now()
 
