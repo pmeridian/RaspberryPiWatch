@@ -1,12 +1,6 @@
 
-Raspberry Pi Python Library for SwitchDoc Labs DS3231/AT24C32 RTC Module
+Raspberry Pi code to run a watch with temperature and humidity sensor
 
-SwitchDoc Labs, LLC  December 19, 2014
-
-Clone respository and run testDS3231.py to test
-
-More Information on www.switchdoc.com
-
-Runs RTC and EEPROM
+Including a version which implement a flask server to interface with Alexa
 
 
